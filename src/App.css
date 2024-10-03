@@ -1,0 +1,25 @@
+/* Imports */
+/* ============================================================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Resets */
+/* ============================================================================================= */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #f3f4f6;
+    /* background-image: url("./assets/icons/wave-haikei.svg"); */
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    margin-bottom: 0;
+}
