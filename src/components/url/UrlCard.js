@@ -49,7 +49,7 @@ function UrlCard({ index, url }) {
         }
 
         fetchInnerText();
-     }, []);
+     }, [url]);
 
     const countSingleWords = () => {
         let wordsDensity = {};
